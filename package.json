@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "react": "^15.4.2"
+    "react-dom": "^15.5.4",
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "heroku-postbuild": "cd frontend && npm run build"

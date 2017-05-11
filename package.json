@@ -4,5 +4,9 @@
   "version": "1.0.0",
   "engines": {
     "node": "6.9.4"
+  },
+  "scripts": {
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards."
   }
 }
